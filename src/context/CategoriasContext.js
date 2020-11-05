@@ -10,7 +10,7 @@ const CategoriasProvider = (props) => {
 
   // Ejecutar el llamado a la API
   useEffect(() => {
-    const obtenerCategorias = async (API) => {
+    const obtenerCategorias = async () => {
       try {
         let URI = "https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list";
 
